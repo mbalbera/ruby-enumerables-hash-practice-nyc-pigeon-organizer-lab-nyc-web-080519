@@ -7,6 +7,6 @@ def nyc_pigeon_organizer(data)
            answer[n] = Hash.new()
          end
          if !answer[n][k]
-            answer[n] = Hash.new()
+            answer[n][k] = Array.new()
   end 
 end
