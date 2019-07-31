@@ -8,5 +8,10 @@ def nyc_pigeon_organizer(data)
          end
          if !answer[n][k]
             answer[n][k] = Array.new()
-  end 
+        end
+        answer[n][k] << attr_v.to_s
+      end 
+    end
+  end
+  answer
 end
